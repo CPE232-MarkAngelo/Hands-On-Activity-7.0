@@ -1,0 +1,12 @@
+[web_servers]
+192.168.56.121 ansible_user=maserver1
+192.168.56.117 ansible_user=ma_server2
+
+[db_servers]
+192.168.56.122 ansible_user=ma_centos
+
+[file_servers]
+192.168.56.119 ansible_user=ma_server3
+
+[workstations]
+192.168.56.121
